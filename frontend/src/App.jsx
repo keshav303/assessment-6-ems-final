@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/employees";
+const API_URL = const API_URL = "https://assessment-6-ems-final.onrender.com/api/employees";
 
 function App() {
   const [employees, setEmployees] = useState([]);
